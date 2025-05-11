@@ -139,11 +139,16 @@ background-color: inherit;
     display: flex;
     align-items: center;
     flex-direction: column;
+    text-align: start;
   }
   
   .dropdown-menu {
     display: grid;
     margin-bottom: 28px;
+    text-align: start;
+  }
+  .dropdown-menu button{
+    text-align: start;
   }
   
   @media (width >= 300px) {
@@ -214,6 +219,7 @@ background-color: inherit;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     z-index: 9999;
   }
   

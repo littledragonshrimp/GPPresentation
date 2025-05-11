@@ -17,14 +17,7 @@ margin-left: 2rem;
 margin-right: 2rem;
 margin-bottom: 40px;
 }
-a{
-  text-decoration: none;
-  color: inherit;
-}
-a:visited{
-  text-decoration: none;
-  color: inherit;
-}
+
 
 h1 {
   text-align: center;
@@ -42,6 +35,14 @@ h1 {
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 20px;
 }
+.grid a{
+  text-decoration: none;
+  color: inherit;
+}
+.grid a:visited{
+  text-decoration: none;
+  color: inherit;
+}
 
 .grid2 {
 
@@ -53,7 +54,14 @@ h1 {
   
   color: white;
 }
-
+.grid2 a{
+  text-decoration: none;
+  color: inherit;
+}
+.grid2 a:visited{
+  text-decoration: none;
+  color: inherit;
+}
 /* .article{
 display: flex;
 flex-direction:
@@ -159,9 +167,13 @@ background: orange;
 padding: 1rem;
 min-width: 28%;
 }
-.story:hover{
-  scale: 1.1;
+.story-title:hover{
+  scale: 1.08;
   transition: .3s;
+  text-decoration: underline;
+}
+.story h3{
+  font-size: 1.5rem;
 }
 
 
@@ -170,7 +182,6 @@ min-width: 28%;
 .section2{
   
   margin: auto;
-
 }
 .section3{
   padding:0;
