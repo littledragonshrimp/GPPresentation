@@ -84,13 +84,30 @@
 
       <!-- Menu -->
       <div class="dropdown">
-        <button class="buttonStandard">
+        <button class="buttonStandard burger-menu">
           <img src="./assets/burgerMenu.svg" alt="menu" />
         </button>
-        <div class="dropdown-menu">
-          <button>Contact Us</button>
-          <button>Report Issue</button>
-          <button>Employee Portal</button>
+        <div class="dropdown-menu burger-special">
+          <a
+            class="burger-list"
+            href="https://www.gptx.org/Contact-Us/Report-Issue"
+            >Contact Us</a
+          >
+          <a
+            class="burger-list"
+            href="https://www.gptx.org/Contact-Us/Report-Issue"
+            >Report Issue</a
+          >
+          <a
+            class="burger-list"
+            href="https://www.gptx.org/Departments/Human-Resources/Employee-Portal"
+            >Employee Portal</a
+          >
+          <input
+            class="search-burger-list"
+            type="text"
+            placeholder="Questions?"
+          />
         </div>
       </div>
     </nav>
@@ -277,5 +294,21 @@
         972-237-8543 Transportation & Mobility Services Contact Directory
       </footer>
     </div>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const burgerMenuButton = document.querySelector(".burger-menu");
+        const burgerDropdown = burgerMenuButton.nextElementSibling;
+
+        burgerMenuButton.addEventListener("click", function (e) {
+          e.stopPropagation();
+          burgerDropdown.classList.toggle("show");
+        });
+
+        // Optional: Close dropdown when clicking outside
+        document.addEventListener("click", function () {
+          burgerDropdown.classList.remove("show");
+        });
+      });
+    </script>
   </body>
 </html>
