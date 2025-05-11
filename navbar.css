@@ -182,10 +182,11 @@ background-color: inherit;
   @media only screen and (max-width: 900px) {
     .buttonStandard {
       font-size: 0;
-      padding: 1.4rem;
+      padding: .8rem;
     }
     button img{
         display:block;
+        margin: 0;
     }
   }
   @media (width >= 500px) {
@@ -223,7 +224,7 @@ background-color: inherit;
   .burger-special button {
     background: white;
     color: white;
-    padding: 1rem 2rem;
+   
     margin: 1rem;
     border: none;
     font-size: 1.5rem;
