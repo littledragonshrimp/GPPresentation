@@ -49,7 +49,7 @@ body {
 max-width: 1600px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 2rem;
+    gap: 1rem;
   }
 
   /* .article{
@@ -139,5 +139,41 @@ flex-direction:
 					color: #37c0fb !important;
 				}
 
+/* Section 2 START */
+.section2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
+
+
+
+.section2 img{
+  display: none;
+}
   
+
+@media only screen and (max-width: 900px) {
+
+  .section2{
+    margin: auto;
+    width: 80%;
+  }
+  .section2 button{
+    border-radius: 12px;
+    background-color: red;
+   height: 50px;
+   margin: 0;
+  }
+
+
+  .grid2{
+    display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: repeat(7, 1fr);
+height: 200px;
+}
+
+  }
