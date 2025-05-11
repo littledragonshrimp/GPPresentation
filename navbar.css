@@ -166,7 +166,6 @@ background-color: inherit;
       translate: 0 24px;
       transition: 0.3s;
     }
-
   
     .dropdown:hover .dropdown-menu {
       opacity: 1;
@@ -174,7 +173,6 @@ background-color: inherit;
       translate: 0 0;
     }
   }
- 
   
   .dropdown-menu > button {
     color: #f9f9f9;
@@ -184,7 +182,7 @@ background-color: inherit;
   @media only screen and (max-width: 900px) {
     .buttonStandard {
       font-size: 0;
-      padding: .8rem;
+      padding: 1.4rem;
     }
     button img{
         display:block;
@@ -203,63 +201,6 @@ background-color: inherit;
   .dropdown-menu > button:hover {
     opacity: 1;
   }
-
-  .dropdown-menu {
-    display: none;
-    /* your existing dropdown styling */
-  }
-  
-  .dropdown-menu.show {
-    display: block;
-  }
-
-  .burger-special {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    background-color: rgba(0, 0, 0, 0.9); /* Dark semi-transparent overlay */
-    display: none;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    z-index: 9999;
-  }
-  
-  .burger-special.show {
-    display: flex;
-  }
-  
-  .burger-special button {
-    background: white;
-    color: black;
-    padding: 1rem 2rem 1rem 2rem;
-    margin: 1rem;
-    border: none;
-    font-size: 1.5rem;
-    cursor: pointer;
-    border-radius: 5px;
-  }
-
-  .burger-list{
-    color: white;
-    font-size: 3rem;
-  }
-
-  .burger-list:visited{
-    text-decoration: none;
-    color: white;
-  }
-
-  .burger-list:hover{
-    background-color: #2b7e88;
-  }
-  .search-burger-list{
-    margin-top: 2rem;
-    padding: 3rem;
-  }
-
 /* 
   
 button {
