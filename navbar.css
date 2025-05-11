@@ -45,6 +45,16 @@
   #homeButton img{
     display: block;
   }
+
+  .dropdown-menu a{
+    text-decoration: none;
+    color: white;
+  }
+  .dropdown-menu button{
+    text-align: start;
+    text-decoration: none;
+    color: white;
+  }
   
   /* .burger {
     z-index: 3;
@@ -147,8 +157,14 @@ background-color: inherit;
     margin-bottom: 28px;
     text-align: start;
   }
+  .dropdown-menu a{
+    text-decoration: none;
+    color: white;
+  }
   .dropdown-menu button{
     text-align: start;
+    text-decoration: none;
+    color: white;
   }
   
   @media (width >= 300px) {
