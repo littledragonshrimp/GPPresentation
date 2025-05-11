@@ -161,7 +161,7 @@ flex-direction: row;
 }
 .story{
 margin: 0 1rem 0 0;
-border: solid black;
+border: 2px solid black;
 border-radius: 12px;
 background: orange;
 padding: 1rem;
@@ -176,6 +176,10 @@ min-width: 28%;
   font-size: 1.5rem;
 }
 
+/* section 4 start */
+.section4{
+  border: 2px solid black;
+}
 
 @media only screen and (max-width: 900px) {
 
@@ -192,6 +196,7 @@ min-width: 28%;
 grid-template-columns: repeat(2, 1fr);
 grid-template-rows: repeat(6, 1fr);
 }
+
 
 .card-link2{
 background-color: green;

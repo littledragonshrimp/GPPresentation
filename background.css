@@ -18,7 +18,7 @@ body, html {
     background-image: url(./assets/background.jpeg);
 
     /* Full height */
-    height: 80%;
+    height: 70%;
     max-height: 600px;
     
   
@@ -57,7 +57,8 @@ body, html {
         background-image: url(./assets/mobileBackground.svg);
     
         /* Full height */
-        height: 60%;
+        height: 50%;
+        max-height: 200px;
         
         
       
