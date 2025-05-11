@@ -44,12 +44,14 @@ body {
   }
 
   .grid2 {
-    margin-left: 2rem;
-    margin-right: 2rem;
-max-width: 1600px;
+
+    max-width: 80%;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 1rem;
+    text-align: center;
+    
+    color: white;
   }
 
   /* .article{
@@ -75,8 +77,6 @@ flex-direction:
     height: auto;
   margin-right: 20px;
   border-radius: 5px;
-
-
 }
 
   .card:hover{
@@ -104,77 +104,91 @@ flex-direction:
   }
   
 
-  /* wrapper */
-  .wrapper {
-		padding: 5em 0 3em 0;
-	}
-
-		.wrapper.style1 {
-			background: #fff;
-		}
-
-		.wrapper.style2 {
-			background-color: #fff;
-			background-image: url("images/bg02.png"), url("images/bg03.png"), url("images/bg01.png");
-			background-position: top left,						bottom left,					top left;
-			background-size: 100% 6em,						100% 6em,						auto;
-			background-repeat: no-repeat,						no-repeat,						repeat;
-		}
-
-		.wrapper.style3 {
-			background-color: #37c0fb;
-			background-image: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
-			background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
-			background-image: -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
-			background-image: linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
-			color: #fff;
-		}
-
-			.wrapper.style3 .button {
-				background: #fff;
-				color: #474747;
-			}
-
-				.wrapper.style3 .button:hover {
-					color: #37c0fb !important;
-				}
-
 /* Section 2 START */
 .section2{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-top: 2rem;
 }
 
+.section2 h2{
+  font-size: 2rem;
+}
+
+.section2 a:hover{
+  scale: 1.1;
+  transition: .3s;
+}
+.card-link2{
+  background-color: green;
+  border-radius: 12px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+  text-decoration: underline;
+}
 
 
 
 .section2 img{
   display: none;
 }
+/*Section 3 Start */
+.section3{
+  display: flex;
+  flex-direction: column;
+  padding-top: 2rem;
+}
+
+.section3 h2{
+  text-align: center;
+  font-size: 2rem;
+}
+.notes-container{
+  display: flex;
+  flex-direction: row;
+}
+.story{
+  margin: 0 1rem 0 0;
+  border: solid black;
+  border-radius: 12px;
+  background: orange;
+  padding: 1rem;
+}
   
 
 @media only screen and (max-width: 900px) {
 
   .section2{
+    
     margin: auto;
     width: 80%;
   }
-  .section2 button{
-    border-radius: 12px;
-    background-color: red;
-   height: 100px;
-   margin: 0;
-  }
-
 
   .grid2{
     display: grid;
 grid-template-columns: repeat(2, 1fr);
-grid-template-rows: repeat(7, 1fr);
-height: 200px;
-
+grid-template-rows: repeat(6, 1fr);
 }
 
-  }
+.card-link2{
+  background-color: green;
+  border-radius: 12px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  font-size: .8rem;
+ 
+}
+.notes-container{
+  flex-direction: column;
+}
+.story{
+  margin-top: 1rem;
+}
+}
+
+  
+
+  
