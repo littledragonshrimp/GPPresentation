@@ -40,7 +40,7 @@
     display: block;
   }
   
-  .burger {
+  /* .burger {
     z-index: 3;
     right: 0;
     display: grid;
@@ -50,17 +50,17 @@
     background-image: url(./assets/burgerBars.svg);
     background-repeat: no-repeat;
     background-position: center;
-  }
+  } */
   
   body.open .burger {
     background-image: url("close.svg");
   }
   
-  @media (width >= 500px) {
+  /* @media (width >= 500px) {
     .burger {
       display: none;
     }
-  }
+  } */
   #homeButton{
 margin-right: auto;
   }
@@ -173,7 +173,7 @@ margin-right: auto;
     opacity: 1;
     height: 40px;
   }
-  @media only screen and (max-width: 800px) {
+  @media only screen and (max-width: 900px) {
     .buttonStandard {
       font-size: 0;
       padding: 1.4rem;
