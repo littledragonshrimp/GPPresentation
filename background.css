@@ -49,6 +49,40 @@ body, html {
     text-align: center;
   }
 
+  footer{
+    padding: 2rem;
+    margin: 0;
+    background-color: #2B7E88;
+    display: flex;
+    color: white;
+    flex-direction: row;
+    justify-content: center;
+  }
+  footer a{
+    color: white;
+    text-decoration: none;
+  }
+  footer ul{
+    margin:0;
+    padding: 0;
+  }
+  footer li{
+    list-style: none;
+  }
+
+  .footer1 {
+    width:22%;
+  }
+  .footer2 {
+    width:22%;
+  }
+  .footer3 {
+    width:22%;
+  }
+  .footer4 {
+    width:22%;
+  }
+
   @media only screen and (max-width: 700px) {
     .fakeNav{
         width: 100%;
@@ -88,4 +122,8 @@ body, html {
         margin-top: 80px; /* 1/2 height */
         text-align: center;
       }
+footer{
+  padding: .5rem;
+}
+    
   }

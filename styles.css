@@ -131,7 +131,7 @@ transition: .3s;
 }
 .card-link2{
 background-color: green;
-border-radius: 12px;
+border-radius: .5rem;
 padding-left: 1rem;
 padding-right: 1rem;
 box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
@@ -162,7 +162,7 @@ flex-direction: row;
 .story{
 margin: 0 1rem 0 0;
 border: 2px solid black;
-border-radius: 12px;
+border-radius: .5rem;
 background: orange;
 padding: 1rem;
 min-width: 28%;
@@ -178,7 +178,25 @@ min-width: 28%;
 
 /* section 4 start */
 .section4{
+  margin-top:2rem;
+  padding: 0 2rem 2rem 2rem;
   border: 2px solid black;
+  border-radius: .5rem;
+}
+.section4-title{
+  font-size: 2rem;
+}
+.section4-content{
+  line-height: .5rem;
+}
+
+.section4-phone{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.phone{
+  margin-left:.4rem;
 }
 
 @media only screen and (max-width: 900px) {
@@ -200,7 +218,7 @@ grid-template-rows: repeat(6, 1fr);
 
 .card-link2{
 background-color: green;
-border-radius: 12px;
+border-radius: .5rem;
 padding-left: 2rem;
 padding-right: 2rem;
 font-size: .8rem;
